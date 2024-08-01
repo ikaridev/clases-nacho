@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const database = [
+        {id: 1, nickname: 'eLmasCapo74', notificaciones: true, views: 254},
+        {id: 2, nickname: 'superNova42', notificaciones: true, views: 879},
+        {id: 3, nickname: 'DarkShadow99', notificaciones: false, views: 612},
+        {id: 4, nickname: 'happyPanda88', notificaciones: true, views: 394},
+        {id: 5, nickname: 'MegaStar55', notificaciones: false, views: 711},
+        {id: 6, nickname: 'SilentWolf21', notificaciones: true, views: 834},
+        {id: 7, nickname: 'quickSilver17', notificaciones: false, views: 478},
+        {id: 8, nickname: 'goldenPhoenix33', notificaciones: true, views: 926},
+        {id: 9, nickname: 'mysticKnight72', notificaciones: true, views: 519},
+        {id: 10, nickname: 'braveHeart45', notificaciones: true, views: 680},
+        {id: 11, nickname: 'cosmicRider90', notificaciones: true, views: 345},
+        {id: 12, nickname: 'ironDragon66', notificaciones: false, views: 759},
+        {id: 13, nickname: 'skyHunter83', notificaciones: true, views: 983},
+        {id: 14, nickname: 'frostWizard19', notificaciones: false, views: 402},
+        {id: 15, nickname: 'thunderLancer29', notificaciones: false, views: 501},
+        {id: 16, nickname: 'starBlazer11', notificaciones: false, views: 672},
+        {id: 17, nickname: 'shadowBlade59', notificaciones: true, views: 243},
+        {id: 18, nickname: 'crystalGuardian22', notificaciones: false, views: 798},
+        {id: 19, nickname: 'fireMage81', notificaciones: false, views: 675},
+        {id: 20, nickname: 'stormChaser34', notificaciones: false, views: 547}
+        ];
+
+        /*
+
+            Premisa:
+                El youtuber BaityBait tiene un TOP 20 de sus suscriptores más fieles.
+                Quiere poder generar 3 listas HTML para visualizar a cada uno de ellos segmentados de la siguiente manera
+                    1- La lista completa de los TOP 20 suscriptores.
+                    2- La lista SOLO de los suscriptores que tienen las notificaciones activadas.
+                    3- La lista completa de los TOP 20 sucriptores PERO ordenada según mayor cantidad de visitas (Pista: buscá los métodos .push y .unshift para Arrays)
+
+            Ejercicio:
+                Utilizando algún método de repetición, deberás generar las 3 listas que el f*cking BaityBait está necesitando.
+                Ya está generada cada una de las listas con sus respectivos títulos.
+
+        */
+    </script>
+
+    <h1>La lista del Baito</h1>
+    <ul id="top20"></ul>
+    <hr>
+    
+    <h2>Solo los reales 😎</h2>
+    <ul id="filteredByNotification"></ul>
+    <hr>
+    
+    <h2>Ordenados por views</h2>
+    <ul id="orderByViews"></ul>
+
+
+</body>
+</html>
