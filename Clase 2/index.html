@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+<body>
+    <script>
+        const database = [
+        {id: 1, nickname: 'eLmasCapo74', notificaciones: true, views: 254},
+        {id: 6, nickname: 'SilentWolf21', notificaciones: true, views: 834},
+        {id: 7, nickname: 'quickSilver17', notificaciones: false, views: 478},
+        {id: 16, nickname: 'starBlazer11', notificaciones: false, views: 672},
+        {id: 8, nickname: 'goldenPhoenix33', notificaciones: true, views: 926},
+        {id: 2, nickname: 'superNova42', notificaciones: true, views: 879},
+        {id: 3, nickname: 'DarkShadow99', notificaciones: false, views: 612},
+        {id: 10, nickname: 'braveHeart45', notificaciones: true, views: 680},
+        {id: 11, nickname: 'cosmicRider90', notificaciones: true, views: 345},
+        {id: 14, nickname: 'frostWizard19', notificaciones: false, views: 402},
+        {id: 4, nickname: 'happyPanda88', notificaciones: true, views: 394},
+        {id: 19, nickname: 'fireMage81', notificaciones: false, views: 675},
+        {id: 20, nickname: 'stormChaser34', notificaciones: true, views: 547},
+        {id: 5, nickname: 'MegaStar55', notificaciones: false, views: 711},
+        {id: 9, nickname: 'mysticKnight72', notificaciones: true, views: 519},
+        {id: 15, nickname: 'thunderLancer29', notificaciones: false, views: 501},
+        {id: 17, nickname: 'shadowBlade59', notificaciones: true, views: 243},
+        {id: 12, nickname: 'ironDragon66', notificaciones: false, views: 759},
+        {id: 13, nickname: 'skyHunter83', notificaciones: true, views: 983},
+        {id: 18, nickname: 'crystalGuardian22', notificaciones: false, views: 798}
+        ];
+
+        /*
+
+            Premisa:
+                Seguimos con el Baity y su lista de seguidores. Pero ahora en vez de tener 3 listas, quiere tener solo una que pueda filtrar de diferentes maneras.
+                Lo que se te pide es lo siguiente:
+                    1- Cada suscriptor que tenga las notificaciones activadas, deberá tener una ⭐ al costado de su nombre.
+                    2- El filtro de suscriptores en el orden de ID menor a mayor, y este deberá ser el predeterminado.
+                    3- El filtro de suscriptores en orden de mayor a menor views.
+                    4- El filtro de suscriptores en orden de mayor a menor views, unicamente de los que tienen las notificaciones activadas.
+
+            Ejercicio:
+                Utilizando algún método de repetición, deberás filtrar las 3 listas que el f*cking BaityBait está necesitando.
+                Ya está generada cada una de las listas con sus respectivos títulos.
+
+        */
+    </script>
+
+    <main class="container">
+        <div class="grid" style="align-items: center;">
+            <div><h1>La lista del Baito</h1></div>
+            <div style="display: flex !important; align-items: center; gap: 8px;">
+                <img src="filter.png" style="filter: invert(1);"></img> 
+                <select id="filter" required>
+                    <option selected disabled value=""> Deberás seleccionar un filtro... </option>
+              </select>
+            </div>
+        </div>
+        <ul id="subsList">
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+        </ul>
+        <hr>
+    </main>
+
+<script src="ListController.js">
+
+</script>
+</body>
+</html>
